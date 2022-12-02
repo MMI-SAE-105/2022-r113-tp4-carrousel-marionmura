@@ -1,9 +1,22 @@
+*{
+    box-sizing:border-box;
+}
+
 img{
     width:100%;
     height:auto;
 }
 
-.carroussel_parent-ecrans{
+.carrousel_parent-ecrans{
     vertical-align:middle;
     width:100%;
+    overflow-x:scroll;
+}
+
+.carrousel_ecran{
+    width:auto;
+}
+
+.carrousel_ecran figure{
+    margin:0;
 }
