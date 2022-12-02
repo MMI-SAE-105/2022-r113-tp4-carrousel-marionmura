@@ -8,13 +8,14 @@ img{
 }
 
 .carrousel_parent-ecrans{
-    vertical-align:middle;
+    display:flex;
     width:100%;
     overflow-x:scroll;
 }
 
 .carrousel_ecran{
-    width:auto;
+    max-width:auto;
+    width:100%;
 }
 
 .carrousel_ecran figure{
