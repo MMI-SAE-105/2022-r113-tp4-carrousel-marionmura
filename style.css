@@ -3,7 +3,7 @@
 }
 
 img{
-    width:100%;
+    max-width:100%;
     height:auto;
 }
 
@@ -11,11 +11,13 @@ img{
     display:flex;
     width:100%;
     overflow-x:scroll;
+    scroll-behavior:smooth;
+    scroll-snap-type:x mandatory; /*evite de deborder l'image*/
 }
 
 .carrousel_ecran{
-    max-width:auto;
     width:100%;
+    flex:none;
 }
 
 .carrousel_ecran figure{
