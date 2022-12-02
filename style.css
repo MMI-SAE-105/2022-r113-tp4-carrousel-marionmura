@@ -50,3 +50,12 @@ img{
   .carrousel_btn-apres {
     right: 0;
 }
+
+.caroussel_liste-liens{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    padding:0;
+    margin:0;
+    gap:1rem;
+}
