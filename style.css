@@ -18,6 +18,7 @@ img{
 .carrousel_ecran{
     width:100%;
     flex:none;
+    scroll-snap-align: start;
 }
 
 .carrousel_ecran figure{
