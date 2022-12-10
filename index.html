@@ -13,11 +13,11 @@
 <body>
     <h1>Test carrousel</h1>
     <ul class="caroussel_liste-liens">
-        <li><a href="#ecran-1" :class="{'actif': hrefCourant==='#ecran-1'}">ecran 1</a></li>
-        <li><a href="#ecran-2" :class="{'actif': hrefCourant==='#ecran-2'}">ecran 2</a></li>
-        <li><a href="#ecran-3" :class="{'actif': hrefCourant==='#ecran-3'}">ecran 3</a></li>
-        <li><a href="#ecran-4" :class="{'actif': hrefCourant==='#ecran-4'}">ecran 4</a></li>
-        <li><a href="#ecran-5" :class="{'actif': hrefCourant==='#ecran-5'}">ecran 5</a></li>
+        <li><a href="#ecran-1" :class="{actif:hrefCourant==='#ecran-1'}">ecran 1</a></li>
+        <li><a href="#ecran-2" :class="{actif:hrefCourant==='#ecran-2'}">ecran 2</a></li>
+        <li><a href="#ecran-3" :class="{actif:hrefCourant==='#ecran-3'}">ecran 3</a></li>
+        <li><a href="#ecran-4" :class="{actif:hrefCourant==='#ecran-4'}">ecran 4</a></li>
+        <li><a href="#ecran-5" :class="{actif:hrefCourant==='#ecran-5'}">ecran 5</a></li>
     </ul>
     <div class="carrousel" x-data="{hrefCourant:'#ecran-1',}">
         <button @click="const p =$refs.parent ;  p.scrollLeft-= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt;</button><button @click="const p =$refs.parent ;  p.scrollLeft+= p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
