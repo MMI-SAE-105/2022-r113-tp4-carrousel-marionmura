@@ -5,6 +5,7 @@
 img{
     max-width:100%;
     height:auto;
+    margin:20px;
 }
 
 .carrousel_parent-ecrans{
@@ -58,4 +59,21 @@ img{
     padding:0;
     margin:0;
     gap:1rem;
+}
+
+.caroussel_liste-liens li> a.actif {
+
+}
+
+a{
+    text-decoration:none;
+    border:2px solid black;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+    background-color:black;
+}
+
+a.actif {
+    background-color:white;
 }
